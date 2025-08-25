@@ -1,5 +1,5 @@
 import React from "react";
-import { getAuth, signOut } from "firebase/auth";
+import { getAuth, signOut } from "../firebase/firebase";
 import { useNavigate } from "react-router-dom";
 
 export default function Dashboard() {
