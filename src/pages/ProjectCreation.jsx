@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db } from "../firebase/firebase"; // 🔁 adjust if your path differs
+import { auth, db } from "../firebase"; // 🔁 adjust if your path differs
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 const ProjectCreation = () => {
